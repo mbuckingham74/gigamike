@@ -12,7 +12,7 @@ title: The Story of Michael
     --accent-soft: #0f172a;
     --text: #e5e7eb;
     --muted: #9ca3af;
-    --reading-width: 880px;
+    --reading-width: 960px; /* bigger reading pane */
   }
 
   * {
@@ -40,17 +40,20 @@ title: The Story of Michael
     text-decoration: underline;
   }
 
+  /* LAYOUT */
+
   .wrap {
     min-height: 100vh;
-    padding: 4rem 6vw;
+    padding: 4rem 8vw 4rem 5vw; /* a bit more room on the right than left */
     display: flex;
     gap: 3rem;
-    max-width: calc(var(--reading-width) + 320px);
-    margin: 0 auto;
+    align-items: flex-start;
   }
 
   .posts {
-    flex: 0 0 260px;
+    flex: 0 0 230px;
+    /* drag the sidebar further left relative to the main card */
+    margin-left: -1.5rem;
     position: sticky;
     top: 3rem;
     align-self: flex-start;
@@ -106,14 +109,15 @@ title: The Story of Michael
     background: var(--card-soft);
     border-radius: 20px;
     padding: 3rem 3rem;
-    max-width: var(--reading-width);
+    /* make it big, but responsive */
+    max-width: min(100%, var(--reading-width));
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(148, 163, 184, 0.3);
   }
 
   .content h1 {
     margin-top: 0;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     letter-spacing: 0.03em;
   }
 
@@ -135,14 +139,16 @@ title: The Story of Michael
   @media (max-width: 900px) {
     .wrap {
       flex-direction: column;
-      max-width: 100%;
       padding: 2.5rem 5vw 3.5rem;
     }
+
     .posts {
       position: static;
       width: 100%;
+      margin-left: 0; /* no weird offset on mobile */
       order: -1;
     }
+
     .content {
       padding: 2rem 1.6rem;
       max-width: 100%;

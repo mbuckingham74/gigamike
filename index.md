@@ -9,5 +9,5 @@ I’m sorry. I know that means little at this point, but I am. I tried to be tru
 </p>
 
 <p>
-If you're reading this, it's because you meant a lot to me and I wish I could have been more for you, you deserved so much more than me.
+If you're reading this, it's because you meant a lot to me and I wish I could have been more for you, you deserved so much more than me. I may have stuck around lonnger in your life than you intended and I'm sorry for this, please know that it was not intentional.
 </p>

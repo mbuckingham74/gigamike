@@ -1,0 +1,23 @@
+# Jekyll build output
+_site/
+
+# Ruby bundler
+vendor/bundle/
+.bundle/
+
+# Ruby version manager
+.ruby-version
+
+# Jekyll cache
+.jekyll-cache/
+.sass-cache/
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

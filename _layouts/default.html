@@ -188,26 +188,30 @@
   </head>
   <body>
     <div class="wrap">
-      <aside class="posts">
-        <h2>Writing</h2>
-        <ul>
-          {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-          </li>
-          {% endfor %}
-        </ul>
+      <div style="display: flex; flex-direction: column; gap: 1.5rem; flex: 0 0 230px; width: 230px;">
+        <aside class="posts" style="width: 100%;">
+          <h2>Writing</h2>
+          <ul>
+            {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
 
-        <h2 style="margin-top: 2rem;">Links</h2>
-        <ul>
-          {% for link in site.data.links %}
-          <li style="border-bottom: none; padding-bottom: 0.5rem;">
-            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </aside>
+        <aside class="posts" style="width: 100%;">
+          <h2>Links</h2>
+          <ul>
+            {% for link in site.data.links %}
+            <li style="border-bottom: none; padding-bottom: 0.5rem;">
+              <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
 
       <main class="content">
         {{ content }}

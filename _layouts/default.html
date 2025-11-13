@@ -198,6 +198,15 @@
           </li>
           {% endfor %}
         </ul>
+
+        <h2 style="margin-top: 2rem;">Links</h2>
+        <ul>
+          {% for link in site.data.links %}
+          <li style="border-bottom: none; padding-bottom: 0.5rem;">
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </aside>
 
       <main class="content">

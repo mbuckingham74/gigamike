@@ -2,7 +2,7 @@
 title: All Is Lost
 layout: default
 ---
-
+# All Is Lost
 
 I’m sorry. I know that means little at this point, but I am. I tried to be true, to be strong, to be kind. But I wasn’t. I failed you and I failed myself. I fought to the end. I’m sorry.
 

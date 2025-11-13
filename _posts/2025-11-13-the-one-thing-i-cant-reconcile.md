@@ -15,3 +15,5 @@ To this day, I have ZERO idea what that was about and what she was angry about. 
 So what is the truth? Did I deserve that glass to the foreheard or was she mistaken and mad about something else? Chase, my friend at Black Diamond PD said I was lucky I had that video because she made a lot of claims about that morning that were not substantiated and he said it was curious that she said she was my girlfirend yet went out of her way to show that she didn't care if I was hurt or not and didn't want a follow up. 
 
 Later at the hospital, I called her and after a few minutes, the nurse disconnected the line saying she was being extremely abusive to me and staff. I told them that she was probably just worried and scared about my injury which looked like a horror prop but people forget that the head bleeds extremely easily and is not a problem. 
+
+So the one thing I can't reconcile is every one of my partners called me the abusive one but how come I'm the one that had no housing and lost all my belongings? 

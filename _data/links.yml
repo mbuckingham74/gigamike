@@ -4,7 +4,5 @@
 - name: "Instagram"
   url: "https://www.instagram.com/counting_to_seven/"
 
-
-# Add more links here in this format:
-# - name: "Link Name"
-#   url: "https://example.com"
+- name: "Blue's Birthday Site"
+  url: "https://dad.forbec.org"

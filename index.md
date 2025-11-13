@@ -1,5 +1,5 @@
 ---
-title: The Story of Michael
+title: All Is Lost
 layout: default
 ---
 
